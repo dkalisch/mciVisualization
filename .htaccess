@@ -1,0 +1,8 @@
+AuthUserFile /var/www/visualization/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Morgenstadt Phase I"
+AuthType Basic
+
+<Limit GET>
+require valid-user
+</Limit>
