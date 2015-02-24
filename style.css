@@ -1,0 +1,84 @@
+body {
+	font: 10px sans-serif;
+}
+
+.arc path {
+	stroke: #fff;
+}
+
+svg {
+	position: absolute;
+}
+
+svg g circle {
+	z-index: 998;
+}
+
+#startPoint {
+	stroke: yellow;
+	z-index: 999;
+}
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	padding: 10px;
+	font: 20px sans-serif;
+	background: white;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 1px solid #888888;
+	pointer-events: none;
+	z-index: 1000;
+}
+
+div#menu {
+	position: absolute;
+	padding: 10px;
+	font: 20px sans-serif;
+	font-weight: bold;
+	background: white;
+	text-align: left;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 1px solid #888888;
+	z-index: 1001;
+	width: 200px;
+	height: 50px;
+}
+
+div#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline;
+}
+
+div#menu ul li:hover{
+	background:#999999;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 1px solid #888888;
+	cursor: pointer;
+}
+
+#legend{
+	margin-right:20px;
+	position:absolute;
+	padding: 10px;
+	font: 20px sans-serif;
+	background: white;
+	text-align: left;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 1px solid #888888;
+}
+
+body #copyright{
+	margin-top:  100px;
+	font: 15px sans-serif;	
+}
